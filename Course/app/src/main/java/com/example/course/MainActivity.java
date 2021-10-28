@@ -9,6 +9,7 @@ import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private RadioGroup radioGroup;
@@ -30,15 +31,28 @@ public class MainActivity extends AppCompatActivity {
 
     public void funcOK(View view) {
         String string = editText.getText().toString();
-        textView.setText(string);
+        if(string.equals("")){
+            Toast toast1 = Toast.makeText(getApplicationContext(), "Пустое текстовое поле!", Toast.LENGTH_SHORT);
+            toast1.show();
+            return;
+        }
         if(radioGroup.getCheckedRadioButtonId() == radioButton1.getId()){
             textView.setTextSize(14);
         }
         else{
             if(radioGroup.getCheckedRadioButtonId() == radioButton2.getId()){
                 textView.setTextSize(18);
-            };
+            }
+            else{
+                if(radioGroup.getCheckedRadioButtonId()==-1){
+                    Toast toast = Toast.makeText(getApplicationContext(), "Не выбран размер шрифта!", Toast.LENGTH_SHORT);
+                    toast.show();
+                    return;
+                };
+            }
         }
+
+        textView.setText(string);
 
     }
 
