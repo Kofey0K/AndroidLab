@@ -19,7 +19,7 @@
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->D:\DZ\Course\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="Lab 1"
+16        android:label="Lab 2"
 16-->D:\DZ\Course\app\src\main\AndroidManifest.xml:8:9-30
 17        android:roundIcon="@mipmap/ic_launcher_round"
 17-->D:\DZ\Course\app\src\main\AndroidManifest.xml:9:9-54

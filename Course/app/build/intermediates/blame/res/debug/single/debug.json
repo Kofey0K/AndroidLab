@@ -24,12 +24,20 @@
         "source": "D:\\DZ\\Course\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\DZ\\Course\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_content.xml.flat",
+        "source": "D:\\DZ\\Course\\app\\src\\main\\res\\layout\\fragment_content.xml"
+    },
+    {
         "merged": "D:\\DZ\\Course\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "D:\\DZ\\Course\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "D:\\DZ\\Course\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "D:\\DZ\\Course\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\DZ\\Course\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_blank.xml.flat",
+        "source": "D:\\DZ\\Course\\app\\src\\main\\res\\layout\\fragment_blank.xml"
     },
     {
         "merged": "D:\\DZ\\Course\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher_background.png.flat",

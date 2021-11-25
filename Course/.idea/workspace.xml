@@ -12,7 +12,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_25_Android_Nougat_7.1.1_x86" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3a_API_30_x86" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -21,9 +21,41 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Course" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Course" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Course" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1pD6UTvfGttez2TANgSWx0hZsK6" />
   <component name="ProjectViewState">
@@ -32,8 +64,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_3a_API_30_x86" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-11-25T11:10:32.065Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="D:/Software/AndroidStuff" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -116,33 +153,45 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="357" y="237" key="#PSD" timestamp="1637856762660">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="357" y="237" key="#PSD/0.0.1680.1010@0.0.1680.1010" timestamp="1637856762660" />
     <state x="559" y="150" key="#app" timestamp="1633004451336">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
     <state x="559" y="150" key="#app/0.0.1680.1010@0.0.1680.1010" timestamp="1633004451336" />
-    <state x="698" y="318" key="AndroidCreateXmlResourceDialog" timestamp="1633013268228">
+    <state x="420" y="260" key="AndroidCreateResourceFileDialog" timestamp="1637494070508">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="698" y="318" key="AndroidCreateXmlResourceDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1633013268228" />
-    <state width="1637" height="271" key="GridCell.Tab.0.bottom" timestamp="1635415473024">
+    <state x="420" y="260" key="AndroidCreateResourceFileDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1637494070508" />
+    <state x="698" y="318" key="AndroidCreateXmlResourceDialog" timestamp="1637852369256">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="271" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1635415473024" />
-    <state width="1637" height="271" key="GridCell.Tab.0.center" timestamp="1635415473024">
+    <state x="698" y="318" key="AndroidCreateXmlResourceDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1637852369256" />
+    <state width="1637" height="271" key="GridCell.Tab.0.bottom" timestamp="1637855157477">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="271" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1635415473024" />
-    <state width="1637" height="271" key="GridCell.Tab.0.left" timestamp="1635415473024">
+    <state width="1637" height="271" key="GridCell.Tab.0.bottom/0.0.1680.1010@0.0.1680.1010" timestamp="1637855157477" />
+    <state width="1637" height="271" key="GridCell.Tab.0.center" timestamp="1637855157476">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="271" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1635415473024" />
-    <state width="1637" height="271" key="GridCell.Tab.0.right" timestamp="1635415473024">
+    <state width="1637" height="271" key="GridCell.Tab.0.center/0.0.1680.1010@0.0.1680.1010" timestamp="1637855157476" />
+    <state width="1637" height="271" key="GridCell.Tab.0.left" timestamp="1637855157476">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="271" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1635415473024" />
-    <state x="956" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1635421857307">
+    <state width="1637" height="271" key="GridCell.Tab.0.left/0.0.1680.1010@0.0.1680.1010" timestamp="1637855157476" />
+    <state width="1637" height="271" key="GridCell.Tab.0.right" timestamp="1637855157476">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="956" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1635421857307" />
+    <state width="1637" height="271" key="GridCell.Tab.0.right/0.0.1680.1010@0.0.1680.1010" timestamp="1637855157476" />
+    <state x="92" y="92" width="1496" height="826" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1637838919347">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="92" y="92" width="1496" height="826" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1637838919347" />
+    <state x="956" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1637856744755">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="956" y="329" key="com.intellij.ide.util.TipDialog/0.0.1680.1010@0.0.1680.1010" timestamp="1637856744755" />
   </component>
 </project>
