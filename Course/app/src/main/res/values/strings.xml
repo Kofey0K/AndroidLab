@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Course</string>
+    <string name="enter_text">Enter text</string>
+    <string name="_14">14</string>
+    <string name="_18">18</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="font_size_not_chosen">Не выбран размер шрифта!</string>
+    <string name="empty_text_field">Пустое текстовое поле!</string>
+    <string name="resultSaved">Результат сохранен</string>
+    <string name="open">OPEN</string>
+    <string name="clear_file">Clear File</string>
+    <string name="FILE_NAME">content.txt</string>
+</resources>
