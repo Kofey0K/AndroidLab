@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import com.example.course.utility.SaveLoad;
+
 public class MainActivity extends AppCompatActivity implements ContentFragment.OnFragmentSendDataListener {
 
     @Override
@@ -25,7 +27,8 @@ public class MainActivity extends AppCompatActivity implements ContentFragment.O
                 .findFragmentById(R.id.detailFragment);
         if (fragment != null) {
             fragment.setSelectedItem(size, selectedItem);
-            fragment.saveData(size, selectedItem);
+            if (!selectedItem.equals(""))
+                SaveLoad.saveData(findViewById(android.R.id.content).getRootView(), size, selectedItem);
         }
     }
 

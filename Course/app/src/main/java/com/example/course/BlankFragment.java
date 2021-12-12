@@ -33,26 +33,7 @@ public class BlankFragment extends Fragment {
         super(R.layout.fragment_blank);
     }
 
-    public void saveData(int fontSize, String text) {
-        BufferedWriter bw = null;
-        try {
-            bw = new BufferedWriter(new FileWriter(getView().getContext().getFilesDir() + OpenActivity.FILE_NAME, true));;
-            bw.write(text + " " + fontSize);
-            bw.newLine();
-            Toast.makeText(getView().getContext(), R.string.resultSaved , Toast.LENGTH_SHORT).show();
-        } catch (IOException ex) {
 
-            Toast.makeText(getView().getContext(), ex.getMessage(), Toast.LENGTH_SHORT).show();
-        } finally {
-            try {
-                if (bw != null)
-                    bw.close();
-            } catch (IOException ex) {
-
-                Toast.makeText(getView().getContext(), ex.getMessage(), Toast.LENGTH_SHORT).show();
-            }
-        }
-    }
 
 
 

@@ -15,6 +15,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import com.example.course.utility.SaveLoad;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -104,26 +106,7 @@ public class ContentFragment extends Fragment {
         buttonClear.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
-                BufferedWriter bw = null;
-                try {
-                    bw = new BufferedWriter(new FileWriter(getView().getContext().getFilesDir() + OpenActivity.FILE_NAME)); // append
-                    bw.write("");
-                    Toast.makeText(getView().getContext(),"File cleared" , Toast.LENGTH_SHORT).show();
-                }
-                catch(IOException ex) {
-
-                    Toast.makeText(view.getContext(), ex.getMessage(), Toast.LENGTH_SHORT).show();
-                }
-                finally{
-                    try{
-                        if(bw!=null)
-                            bw.close();
-                    }
-                    catch(IOException ex){
-
-                        Toast.makeText(view.getContext(), ex.getMessage(), Toast.LENGTH_SHORT).show();
-                    }
-                }
+                SaveLoad.clearFile(getActivity());
             }
         });
 
